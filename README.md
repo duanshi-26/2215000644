@@ -58,7 +58,7 @@ To run either project locally:
 
    ```bash
    git clone https://github.com/duanshi-26/2215000644.git
-   ``
+   ```
 
 2. Navigate to the desired project directory:
 
@@ -66,7 +66,7 @@ To run either project locally:
    cd 2215000644/Project1_Social_Media_Analysis
    # or
    cd 2215000644/Project2_Calculator
-   ``
+   ```
 
 3. Open `index.html` in your web browser to view the applicaton.
 
@@ -76,5 +76,4 @@ To run either project locally:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
---
 
