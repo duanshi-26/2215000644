@@ -1,0 +1,81 @@
+.top-users-container {
+  padding: 20px 0;
+}
+
+.top-users-container h2 {
+  margin-bottom: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-card {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f51b5;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  min-width: 60px;
+  padding: 0 10px;
+}
+
+.user-info {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.user-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.posts-summary {
+  margin-top: 12px;
+}
+
+.posts-summary p {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.posts-summary ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.posts-summary li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .user-card {
+    flex-direction: column;
+  }
+  
+  .rank {
+    min-width: 100%;
+    padding: 10px 0;
+  }
+}

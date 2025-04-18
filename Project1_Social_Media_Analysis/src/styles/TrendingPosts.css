@@ -1,0 +1,77 @@
+.trending-posts-container {
+    padding: 20px 0;
+  }
+  
+  .trending-posts-container h2 {
+    margin-bottom: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .trending-posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .trending-post-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .trending-post-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .post-header {
+    margin-bottom: 15px;
+  }
+  
+  .post-header h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .post-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .post-meta p {
+    margin: 0;
+  }
+  
+  .post-body {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .post-stats {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .comment-count {
+    background-color: #3f51b5;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .post-meta {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+  
